@@ -1,0 +1,52 @@
+<style>
+* {
+    margin: 0;
+}
+
+header {
+    padding: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    background: #F5F5F5;
+}
+
+/* The flex and justify, are making the things happend */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F05454;
+    font-weight: bold;
+}
+
+/* ul also needs to have a display: flex; the contents needs to be side bu side */
+ul {
+    display: flex;
+    list-style: none;
+    color: #121212;
+    gap: .8rem;
+    align-items: center;
+}
+
+ul li:last-child {
+    color: white;
+    background: #30475E;
+    padding: .8rem;
+}
+</style>
+
+<header>
+    <nav>
+      <a href="#">LOGO</a>
+      <ul>
+        <li>HOME</li>
+        <li>ABOUT</li>
+        <li>SERVICES</li>
+        <li>TESTIMONIALS</li>
+        <li>CONTACT</li>
+      </ul>
+    </nav>
+</header>
